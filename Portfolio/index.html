@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71dbd568e4.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="kslogo.png" type="image/x-icon">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/kslogo.png" class="logo" width="100" height="100">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#serv">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science Student</p>
+            <h1>Hi, I'm <span>Kevin Shilla</span></h1>
+        </div>
+    </div>
+</div>
+<!----------ABOUT----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/kevin.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Growing up in a low-income Tanzanian family, my parents taught me to maintain high standards for my academic and professional achievements amidst the intangible hierarchical impediments that accompany my identity. I continue to hold myself to these standards as a Computer Science and Economics student all while recognizing the ways in which I can utilize my own privileges to help others who may not have the same access as I do. I have been able to use the theoretical knowledge I have acquired in the classroom in a practical way that has tangible effects on Tanzanians living in the U.S. I am of the strong belief that as a young Black Man from a low-income household, interested in a career within the technology industry, the onus is on me to ensure that technology leaves no one behind. Being involved in local communities now, allows me to ensure that I center small community needs in my future work as a software engineer and web developer. I am often hesitant to recount stories of my childhood, in an attempt not to perpetuate a harmful narrative of the stereotypically undeveloped Africa—i.e. the times when my parents biked with me to the nearest hospital 20 km away from home. During my time at Queens College, I hope to apply for fellowship opportunities that will put me well on my way to achieving my goals of becoming a web developer and software engineer to increase access and equity for New York City communities.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                    <p class="tab-links" onclick="opentab('education')">Education </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C++</span><br> ALGORITHMIC PROBLEM SOLVING <br> CONTROL FLOW IN C++ <br>
+                        OBJECT ORIENTED PROGRAMMING IN C++ <br>
+                        C++'S BUILT IN DATA STRUCTURES DEBUGGING <br> CODECADEMY COMPLETION CERTIFICATE IN C++ <a class="links" href="https://www.codecademy.com/profiles/KevSwags/certificates/ddc94032dd07fd43ee02f994e8f72af9" target="_blank"> CERTIFICATE IN C++</a> </li>
+
+
+                        <li><span>JAVA</span><br> CONDITIONALS AND CONTROL FLOW IN JAVA <br> OBJECT ORIENTED PROGRAMMING IN JAVA <br> INHERITANCE AND POLYMORPHISM <br> DEBUGGING <br> CODECADEMY COMPLETION CERTIFICATE IN JAVA <a class="links" href="https://www.codecademy.com/profiles/KevSwags/certificates/d3f89367b558583e361640f778191345" target="_blank">CERTIFICATE IN JAVA</a></li>
+
+
+                        <li><span>HTML/CSS</span><br>2 PORTFOLIO WEBSITE <a class="links" href="https://kevinshilla.netlify.app/" target="_blank">my first Website</a> <br> ELEMENTS AND STRUCTURE <br> TABLES <br> FORMS <br> SEMATIC HTML <br> SYNTAX AND SELECTORS <br> VISUAL RULES <br> CODECADEMY COMPLETION CERTIFICATE IN HTML <a class="links" href="https://www.codecademy.com/profiles/KevSwags/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target="_blank">CERTIFICATE IN HTML</a> </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Intern, Tanzania Permanent Mission to the United Nations,  New York, NY July 2020 - Sep 2020</span><br>Performed administrative tasks to assist mission officers in preparation for SDG+ General assembly meetings. <br> Conceptualized, managed, and led information sessions on foreign policy for Model UN delegates <br> Led Model UN high school delegates for the United Republic of Tanzania</li>
+                        <li><span>Fellow, Fordham University's Science and Technology Entry Program (STEP) Oct 2017 - Apr 2021</span><br>Lead the Fordham STEP robotics team by co-conceptualizing and executing the creation of a fully functioning robot dog.
+                        <br>Assisted/Tutored my fellow classmates in my aviation class activities surrounding mechanical flight and the aircraft
+                        industry</li>
+                        <li>
+                            <span>Tutor, PS/IS 217 Roosevelt Island School, New York, NY June - July 2020</span><br>Evaluated middle schooler's performance in mathematics and science, delivering accurate and accessible content to
+                            create learning environments that encourage participation. <br> Assisted with the recruitment of other tutors by tabling, canvassing, and conducting interviews. <br> Semantic HTML <br> Created persuasive messaging architecture to encourage student participation in study programs</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>St John's Preparatory School, New York, NY</span><br>Advanced High School Diploma June 2021</li>
+                        <li><span>Queens College(CUNY), New York, NY</span><br>Major: Computer Science | Minor: Economics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------- SERVICES -->
+<div id="serv"></div>
+<div class="services">
+    <div class="container">
+        <h1 class="sub-title">SERVICES AND AWARDS</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-award"></i>
+                <h2>HONORS AND AWARDS</h2>
+                <p><em>I am proud of the distinctions and awards I received while attending St. John's Preparatory School, including being accepted into the Fordham STEP program and doing exceptionally well in my soccer league. I was able to obtain practical experience in science and technology because to my involvement in the Fordham STEP program, which also assisted me in honing important problem-solving and teamwork skills. I received accolades for my performance and leadership on the soccer field as well as honors for my commitment and hard work. These experiences have improved me as a student and athlete while also teaching me the value of perseverance and determination.</em></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h2>COMMUNITY SERVICES</h2>
+                <p><em>I'm very committed to giving back to my community, and I've had the good fortune to take part in many volunteer activities throughout the years. I have had the opportunity to share my love of mathematics with young pupils as a volunteer math tutor at Bensal Nursery School and assist them in laying a solid foundation in the discipline. As a tour guide and ambassador for St. John's Preparatory Open House, I have also promoted the school to potential parents and shared my own great experiences. In addition, I have participated in the chorus at Immanuel Lutheran Church, where I have had the opportunity to use my musical abilities to uplift and inspire others. These experiences have allowed me to make a positive impact in my community and have taught me the importance of giving back.</em></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/c++.png" height="400">
+                <div class="layer">
+                    <h3>My C++ Work</h3>
+                    <p>These are some of my C++ work</p>
+                    <a href="https://github.com/KevSwags/C-" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/java.png">
+                <div class="layer">
+                    <h3>My Java Work</h3>
+                    <p>These are some of my Java work</p>
+                <a href="https://github.com/KevSwags/Java" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/html-css.png" height="400">
+                <div class="layer">
+                    <h3>My HTML/CSS Work</h3>
+                    <p>These are some of my HTML/CSS work</p>
+                    <a href="https://github.com/KevSwags/HTML-and-CSS" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+</body>
+</html>
